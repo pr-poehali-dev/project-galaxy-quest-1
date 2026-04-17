@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Направления
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Что мы делаем</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Полевые исследования",
+              description: "Экспедиции по Горнозаводскому району: картографирование, оценка проходимости и документирование объектов индустриального наследия",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Разработка цифровых треков",
+              description: "Создание GPS-навигационных треков с точками интереса, категоризацией по сложности и интеграцией с популярными навигаторами",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Организация экспедиций",
+              description: "Пилотные групповые выезды для владельцев внедорожников и исследователей истории Урала с сопровождением и инструктажем",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Навигационная база",
+              description: "Готовая база маршрутов с описаниями, фотографиями и историческими справками по каждому объекту индустриального наследия",
               direction: "bottom",
             },
           ].map((service, i) => (
